@@ -1,43 +1,46 @@
-# React Native Stopwatch
+# React Native Timer App
 
-This is a stopwatch app developed in React Native. It allows you to track time in minutes, seconds, and milliseconds. You can start, pause, and reset the stopwatch as needed.
+This is a simple React Native timer app that allows you to track time, add markers, and display time differences. It features a user-friendly interface with start, stop, reset, and marker buttons.
+
+
+
+
+https://github.com/Lucas-Gabriel0/Timer/assets/116285526/6779284a-0c04-4d41-86ef-24da106b1e96
+
+
+
+
 
 ## Features
-- Accurate counting of minutes, seconds, and milliseconds.
-- Intuitive buttons to start, pause, and reset the stopwatch.
-- Minimalistic and easy-to-read user interface.
 
-## Functionality
-- When you start the stopwatch, the time will begin counting from zero.
-- The minutes, seconds, and milliseconds will automatically update as time passes.
-- The stopwatch can be paused at any time to stop the counting.
-- When you reset the stopwatch, all values will be reset to zero, and the time will start again.
+- Start and stop the timer.
+- Add time markers.
+- Display time differences between markers.
+- Reset the timer and clear markers.
+- Animated timer display.
 
-## Usage
-1. Clone this repository to your local environment.
-2. Make sure you have the React Native development environment set up correctly.
-   - Check if you have Node.js installed on your computer.
-   - Install the React Native CLI globally by running the command `npm install -g react-native-cli`.
-   - Ensure that you have the React Native development dependencies installed. Refer to the official documentation for more details.
-3. Run the command `npm install` in the project's root folder to install the dependencies.
-4. Start the Android Emulator or connect your Android device to the computer.
-   - To start the emulator, you can use Android Studio or run the command `emulator -avd emulator_name`.
-5. Run the command `react-native run-android` to launch the app on the emulator or Android device.
-   - Make sure the emulator is running or the device is properly connected.
-6. The app will be launched on the emulator or Android device, allowing you to view and interact with the stopwatch.
+## Technologies Used
 
-<br>
-<br>
+- React Native
+- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+- Animated API
 
-<img src="https://github.com/Lucas-Gabriel0/Relogio/assets/116285526/e855f23f-c28d-42eb-a143-f61b745215c0" alt="p1" width="300">
+## Getting Started
 
-<img src="https://github.com/Lucas-Gabriel0/Relogio/assets/116285526/59fd4c89-3601-41b8-9cba-56c0bb45a3f8" alt="p2" width="300">
+Install Dependencies: After cloning the repository, navigate to the project folder and install the required dependencies using either npm or yarn. In your terminal, run:
 
+Start the Application: Once the dependencies are installed, you can start the application with:
 
-## Contribution
-If you want to contribute improvements, bug fixes, or add new features to this project, feel free to submit a pull request. We'll be happy to review your contributions!
+Run the App: To run the app on your device or emulator using Expo, follow the instructions provided in the terminal. Typically, you can use the Expo Go app on your mobile device to scan the QR code displayed in the terminal and test the app.
+
+## How to Use
+- Click the "Start" button to begin the timer.
+- Click the "Stop" button to pause the timer.
+- Click the "Marker" button to add a time marker.
+- Click the "Reset" button to reset the timer and clear markers.
+
+## Contributing
+- Feel free to contribute to this project by creating issues or pull requests. Your contributions are welcome!
 
 ## License
-This project is licensed under the MIT License.
-
-**Note: This project is currently under development and may contain some known issues. Please feel free to report any issues or provide suggestions for improvement. Your feedback is valuable to us!**
+- This project is licensed under the MIT License - see the LICENSE file for details.
