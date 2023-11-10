@@ -3,11 +3,7 @@
 This is a simple React Native timer app that allows you to track time, add markers, and display time differences. It features a user-friendly interface with start, stop, reset, and marker buttons.
 
 
-
-
-https://github.com/Lucas-Gabriel0/Timer/assets/116285526/6779284a-0c04-4d41-86ef-24da106b1e96
-
-
+https://github.com/Lucas-Gabriel0/Timer/assets/116285526/131be2cd-c0df-4c49-a5da-bf4d56791f54
 
 
 
